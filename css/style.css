@@ -15,12 +15,13 @@
     height: 80px;
     max-width: 1024px;  
     width: 100%; 
-    background-color: #D8D8D8; 
+    background-color: #D8D8D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.titulo{
-    text-align: center;
-}
+
 
 .box{
     border: 1px solid;
@@ -67,24 +68,20 @@
     width: 100%;
     height: 200px;
     margin-top: 20px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .caja-minima{
     width: 150px;
     height: 150px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -75px 0 0 -75px;
-
 }
 
 @media(max-width:600px){
     .cajas-grandes{
         width: 100%;
-       
         margin-left: 0px;
     }
 
@@ -103,7 +100,6 @@
 
     .cajas-pequenas{
         width: 100%;
-        
         margin-left: 0px;
     }
 }
