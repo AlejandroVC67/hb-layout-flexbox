@@ -1,0 +1,32 @@
+.container{
+	max-width: $max-width;
+	margin: 0 auto;
+	
+}
+
+.box{
+	border: 1px solid;
+	border-color: #979797;
+	background-color: #D8D8D8;
+}
+
+.display{
+	display: flex;
+}
+
+.big-item{
+	width: $width;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: $margin;
+ 	&:first-child{ margin-left: 0px; }
+}
+
+.small-item{
+	width: $width;
+	height: 120px;
+	margin-top: 20px;
+	margin-left: $margin;
+	&:first-child{ margin-left: 0px; }
+}
+

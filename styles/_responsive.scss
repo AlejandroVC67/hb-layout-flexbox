@@ -1,0 +1,6 @@
+@mixin celular{
+		@media(max-width: #{$breakpoint}){
+			@content;
+		}
+}
+
