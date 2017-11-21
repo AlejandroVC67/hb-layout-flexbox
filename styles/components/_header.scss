@@ -1,9 +1,10 @@
 .header{
 	position: fixed;
 	height: 80px;
-	max-width: $max-wdith;  
+	max-width: $max-width;  
 	width: $width; 
 	background-color: #D8D8D8;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	top: 0;

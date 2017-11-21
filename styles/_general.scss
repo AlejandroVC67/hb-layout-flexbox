@@ -11,9 +11,15 @@
 
 .display{
 	display: flex;
+	margin-top: 100px;
 	@include celular{
 		flex-direction: column;
 	}
 }
+
+.margin-fixer{
+	margin-top: $margin;
+}
+
 
 

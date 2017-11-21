@@ -1,26 +1,27 @@
 .big-item{
 	width: $width;
 	height: 300px;
-	margin-top: 100px;
 	margin-left: $margin;
 	&:first-child{ 
-		margin-left: 0px; 
+		margin-left: 0px;
 		@include celular{
 			margin-top: $margin;
+			margin-top: 0;
 		}
 	}
 	 @include celular{
 		 margin-left: 0;
+		 margin-top: $margin;
 	 }
 }
 
 .small-item{
 	width: $width;
 	height: 120px;
-	margin-top: $margin;
 	margin-left: $margin;
-	&:first-child{ margin-left: 0px; }
+	&:first-child{ margin-left: 0px; margin-top: 0 }
 	@include celular {
 		margin-left: 0;
+		margin-top: $margin;
 	}
 }
