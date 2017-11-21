@@ -1,1 +1,10 @@
+// General
 @import 'variables';
+@import 'reset';
+@import 'general';
+@import 'responsive';
+
+// Components
+@import 'components/header';
+@import 'components/items';
+@import 'components/footer';
