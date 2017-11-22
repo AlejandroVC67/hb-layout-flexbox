@@ -9,13 +9,7 @@
 	background-color: #D8D8D8;
 }
 
-.display{
-	display: flex;
-	margin-top: 100px;
-	@include celular{
-		flex-direction: column;
-	}
-}
+
 
 .margin-fixer{
 	margin-top: $margin;

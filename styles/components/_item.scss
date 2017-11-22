@@ -25,3 +25,15 @@
 		margin-top: $margin;
 	}
 }
+
+.display{
+	display: flex;
+	margin-top: $margin;
+	@include celular{
+		flex-direction: column;
+	}
+}
+
+.margin-wrapper{
+	margin-top: 100px;
+}

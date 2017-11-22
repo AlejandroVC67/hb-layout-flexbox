@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  
   "main": "index.js",
-  "dependencies": {
-    "husky": "^0.14.3",
-    "node-sass": "^4.7.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "husky": "^0.14.3",
+    "node-sass": "^4.7.2",
     "stylelint": "^8.2.0",
     "stylelint-config-recommended-scss": "^2.0.0",
     "stylelint-scss": "^2.1.0"
